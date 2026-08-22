@@ -8,7 +8,7 @@ window.PUBLICATIONS = [
       { "name": "Jayson Paulose" }
     ],
     "venue": { "name": "Arxiv preprint"},
-    "summary": "A framework for predicting the band structure of waves in systems with spatio-temporal symmetry provides a unified description of both non-reciprocal wave phenomena and robust, topologically quantized transport.",
+    "summary": "Predicts wave band structures in systems with spatiotemporal symmetry, including both nonreciprocal wave behavior and topologically quantized transport.",
     "links": [
       { "label": "arXiv", "url": "https://arxiv.org/abs/2510.16562" }
     ],

@@ -48,7 +48,7 @@ function renderVenue(venue, links) {
   if (venue.volume) container.append(" ", element("b", "", venue.volume));
   if (venue.article) container.append(`, ${venue.article}`);
   if (venue.year) container.append(` (${venue.year})`);
-  if (venue.note) container.append(` — ${venue.note}`);
+  if (venue.note) container.append(" — ", element("span", "pub-note", venue.note));
 
   const linkGroup = element("span", "pub-links");
   links.forEach((link) => linkGroup.append(publicationLink(link)));
